@@ -1,2 +1,2 @@
 #!/bin/bash
-grap iv bin /etc/passwd
+grep iv bin /etc/passwd
