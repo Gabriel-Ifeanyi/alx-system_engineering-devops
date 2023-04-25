@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script will display contents of the current directory in a list format and,
+# Will only display part of the name after the fist dash
+
+list=$(ls)
+for i in $list; do
+	echo "$i" | cut -d '-' -f2
+done 
